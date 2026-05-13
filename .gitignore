@@ -1,0 +1,21 @@
+# 가상환경
+type-beat/
+venv/
+.env
+
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
+
+# 음원 및 데이터베이스 (용량 문제로 제외)
+downloaded_beats/
+temp_audio/
+chroma_db/
+
+# 오디오 파일 직접 제외
+*.wav
+*.mp3
+*.m4a
+
+# 맥 OS 전용 파일
+.DS_Store
